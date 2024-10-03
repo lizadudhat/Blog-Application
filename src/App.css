@@ -1,0 +1,133 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  border-radius: 90px 90px;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.blog-post {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+  width: 100%;
+  height: auto;
+}
+
+.blog-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.blog-actions button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.blog-actions button:hover {
+  background-color: #5d9ee3;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+  
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  font-family: 'Arial', sans-serif; 
+  margin: 0;
+  color: #333;
+}
+
+.search-container {
+  position: relative;
+  flex: 1;
+  margin: 0 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 100px;
+  border: 1px solid #dbdbdb;
+  border-radius: 9px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  align-items: center;
+  transform: translateY(-50%);
+  color: #999;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: red; 
+}
